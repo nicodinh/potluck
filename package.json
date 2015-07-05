@@ -1,0 +1,30 @@
+{
+  "name": "potluck",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Video",
+  "license": "MIT",
+  "repository": "eaze/potluck",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "eazeup.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
