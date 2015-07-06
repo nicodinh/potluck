@@ -1,8 +1,8 @@
 'use strict'
 
-var test = require('tape')
-var potluck = require('./')
+// var test = require('tape')
+// var potluck = require('./')
 
-test(function (t) {
+// test(function (t) {
 
-})
+// })
