@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "base-element": "^3.0.1",
-    "potluck-tokbox-adapter": "0.0.0"
+    "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter"
   },
   "devDependencies": {
     "browserify": "^10.2.4",
