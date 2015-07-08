@@ -19,13 +19,22 @@
   "keywords": [
     "webrtc"
   ],
+  "browserify-shim": {
+    "opentok": "global:OT",
+    "cordova": "global:cordova"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
   "dependencies": {
-    "crel": "^2.1.8",
-    "rtc-attach": "^2.0.1",
-    "rtc-capture": "^1.0.2",
-    "rtc-quickconnect": "^4.3.2"
+    "base-element": "^3.0.1",
+    "potluck-tokbox-adapter": "0.0.0"
   },
   "devDependencies": {
+    "browserify": "^10.2.4",
+    "browserify-shim": "^3.8.9",
     "tape": "^4.0.0",
     "standard": "^4.0.0"
   },
