@@ -1,0 +1,27 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.pl-conference {
+  position: relative;
+  height: 100%;
+}
+
+.pl-video {
+  transition: 0.2s ease-out;
+}
+
+.pl-local {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  width: 200px;
+  height: 200px;
+  z-index: 100;
+  border: 2px solid black;
+}
+
+.pl-remote {
+  position: absolute;
+}

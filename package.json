@@ -10,34 +10,42 @@
   },
   "scripts": {
     "test": "standard && tape test.js",
-    "build": "browserify index.js -o out.js -p [ parcelify -wo out.css ]"
+    "build": "browserify index.js -o out.js -p [ parcelify -o out.css ]",
+    "dev": "watchify index.js -v -o out.js -p [ parcelify -wo out.css ]"
   },
-  "transforms": [
-    "autoprefixer-stream"
-  ],
   "browserify-shim": {
     "opentok": "global:OT",
     "cordova": "global:cordova"
   },
+  "style": "lib/*.css",
   "browserify": {
     "transform": [
-      "browserify-shim"
+      "browserify-shim",
+      "autoprefixer-stream"
     ]
   },
-  "style": "*.css",
   "dependencies": {
     "base-element": "3.0.1",
+    "dom-event-target": "^1.0.0",
+    "main-loop": "^3.1.0",
+    "observ": "^0.2.0",
+    "observ-struct": "^6.0.0",
+    "once-events": "^1.0.0",
     "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter",
-    "run-parallel": "1.1.2"
+    "raf": "^3.0.0",
+    "run-parallel": "^1.1.2",
+    "virtual-dom": "^2.0.1",
+    "window": "^1.0.0",
+    "winresize-event": "^0.2.1"
   },
   "devDependencies": {
-    "autoprefixer-stream": "0.0.1",
-    "browserify": "^10.2.4",
-    "browserify-css": "^0.6.1",
-    "browserify-shim": "^3.8.9",
+    "autoprefixer-stream": "0.0.2",
+    "browserify": "10.2.4",
+    "browserify-css": "0.6.1",
+    "browserify-shim": "3.8.9",
     "parcelify": "^1.1.3",
-    "standard": "^4.0.0",
-    "tape": "^4.0.0"
+    "standard": "4.0.0",
+    "tape": "4.0.0"
   },
   "files": [
     "index.js"
