@@ -27,8 +27,8 @@
   "style": "*.css",
   "dependencies": {
     "base-element": "3.0.1",
-    "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter",
-    "run-parallel": "1.1.2"
+    "once-events": "~1.0.0",
+    "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter"
   },
   "devDependencies": {
     "autoprefixer-stream": "0.0.1",
