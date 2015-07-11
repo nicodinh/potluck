@@ -26,16 +26,14 @@
   },
   "dependencies": {
     "base-element": "3.0.1",
-    "dom-event-target": "^1.0.0",
-    "main-loop": "^3.1.0",
+    "geval": "^2.1.1",
+    "next-tick": "^0.2.2",
     "observ": "^0.2.0",
     "observ-struct": "^6.0.0",
-    "once-events": "^1.0.0",
     "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter",
     "raf": "^3.0.0",
     "run-parallel": "^1.1.2",
     "virtual-dom": "^2.0.1",
-    "window": "^1.0.0",
     "winresize-event": "^0.2.1"
   },
   "devDependencies": {
