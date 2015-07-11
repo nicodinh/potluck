@@ -1,5 +1,6 @@
 'use strict'
 var TokboxAdapter = require('potluck-tokbox-adapter')
+var App = require('./lib')
 
 var credentials = {
   apiKey: '45258342',
@@ -8,5 +9,4 @@ var credentials = {
 }
 var adapter = new TokboxAdapter(credentials)
 
-var render = require('./lib/conference')(document.body, adapter)
-render()
+App(document.body, adapter)

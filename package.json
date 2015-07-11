@@ -27,7 +27,9 @@
   "dependencies": {
     "base-element": "3.0.1",
     "dom-event-target": "^1.0.0",
+    "geval": "^2.1.1",
     "main-loop": "^3.1.0",
+    "next-tick": "^0.2.2",
     "observ": "^0.2.0",
     "observ-struct": "^6.0.0",
     "once-events": "^1.0.0",
