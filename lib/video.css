@@ -4,8 +4,8 @@ body, html {
 }
 
 .pl-conference {
-  position: relative;
-  height: 100%;
+  /* position: relative; */
+  /* height: 100%; */
 }
 
 .pl-video {
@@ -22,7 +22,7 @@ body, html {
   border: 2px solid black;
 }
 
-// Remote video is always full size
+/* Remote video is always full size */
 .pl-remote {
   position: absolute;
   top: 0;
