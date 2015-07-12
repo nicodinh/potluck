@@ -29,6 +29,7 @@
     "for-each": "^0.3.2",
     "geval": "^2.1.1",
     "is-function": "^1.0.1",
+    "mercury": "ajoslin/mercury",
     "next-tick": "^0.2.2",
     "observ": "^0.2.0",
     "observ-array": "~3.2.1",
