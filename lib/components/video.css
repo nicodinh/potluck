@@ -19,7 +19,7 @@ body, html {
   width: 200px;
   height: 200px;
   z-index: 100;
-  border: 2px solid black;
+  border: 1px solid;
 }
 
 /* Remote video is always full size */
@@ -29,4 +29,26 @@ body, html {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.pl-no-video,
+.pl-no-audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.9);
+  border-radius: 4px;
+  color: #efefef;
+  margin: 16px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100px;
+  height: 100px;
+}
+.pl-no-video {
+  left: auto;
+  right: 0;
 }

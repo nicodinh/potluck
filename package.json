@@ -17,7 +17,7 @@
     "opentok": "global:OT",
     "cordova": "global:cordova"
   },
-  "style": "lib/*.css",
+  "style": "lib/**/*.css",
   "browserify": {
     "transform": [
       "browserify-shim",
