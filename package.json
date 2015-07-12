@@ -31,7 +31,7 @@
     "is-function": "^1.0.1",
     "next-tick": "^0.2.2",
     "observ": "^0.2.0",
-    "observ-array": "^3.2.1",
+    "observ-array": "~3.2.1",
     "observ-struct": "^6.0.0",
     "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter",
     "raf": "^3.0.0",
