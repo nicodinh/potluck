@@ -7,7 +7,7 @@ Currently uses opentok for video connections.
 ### Usage
 
 Currently can only be used with `potluck-opentok-adapter`, which expects opentok to be
-shimmed as `require('opentok') === window.OT`
+included globally (unfortunately the only way to load opentok).
 
 Don't like opentok? Create a new video adapter and use it.
 
