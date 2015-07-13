@@ -35,8 +35,5 @@
     "parcelify": "^1.1.3",
     "standard": "4.0.0",
     "tape": "4.0.0"
-  },
-  "files": [
-    "index.js"
-  ]
+  }
 }
