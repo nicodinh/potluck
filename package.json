@@ -1,6 +1,6 @@
 {
   "name": "potluck",
-  "main": "index.js",
+  "main": "lib/index.js",
   "version": "0.0.3",
   "description": "Video chat one on one",
   "license": "MIT",
