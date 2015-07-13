@@ -4,6 +4,12 @@
   height: 100%;
 }
 
+.pl-video {
+}
+
+.pl-absent {
+}
+
 /* Local video is in bottom left corner */
 .pl-local {
   position: absolute;

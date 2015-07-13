@@ -9,7 +9,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "standard && tape test.js",
+    "test": "standard",
     "build": "browserify test.js -o out.js -p [ parcelify -o out.css ]",
     "dev": "watchify test.js -v -o out.js -p [ parcelify -wo out.css ]"
   },

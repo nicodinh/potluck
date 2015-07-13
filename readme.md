@@ -45,8 +45,10 @@ videoChatContainer.remove()
   * The local video. Placed in the bottom left corner of the conference. Changes size to match the aspect ratio of the remote user.
 - `.pl-remote`
   * The remote video. Stretches to fill the conference.
+- `.pl-absent`
+  * The remote video has this class when no one has connected yet, or when someone leaves after connecting.
 - `.pl-no-audio, .pl-no-video`
-  * These elements exist inside the remote video when there's no audio and/or no video available.
+  * These elements exist as children of each video when there's no audio and/or no video available, with the text 'No Audio' or 'No Video'
 
 ### Development
 
