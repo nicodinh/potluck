@@ -1,7 +1,7 @@
 {
   "name": "potluck",
   "main": "index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Video chat one on one",
   "license": "MIT",
   "repository": "eaze/potluck",
@@ -14,8 +14,7 @@
     "dev": "watchify test.js -v -o out.js -p [ parcelify -wo out.css ]"
   },
   "browserify-shim": {
-    "opentok": "global:OT",
-    "cordova": "global:cordova"
+    "opentok": "global:OT"
   },
   "style": "lib/**/*.css",
   "browserify": {
@@ -26,10 +25,9 @@
   },
   "dependencies": {
     "after": "^0.8.1",
-    "base-element": "^3.0.1",
     "mercury": "^14.0.0",
     "next-tick": "^0.2.2",
-    "potluck-tokbox-adapter": "eaze/potluck-tokbox-adapter",
+    "potluck-tokbox-adapter": "0.0.2",
     "weakmap-event": "0.0.2",
     "winresize-event": "^0.2.1"
   },
