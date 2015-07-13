@@ -1,17 +1,10 @@
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
 .pl-conference {
-  /* position: relative; */
-  /* height: 100%; */
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.pl-video {
-  transition: 0.2s ease-out;
-}
-
+/* Local video is in bottom left corner */
 .pl-local {
   position: absolute;
   bottom: 16px;
@@ -19,7 +12,9 @@ body, html {
   width: 200px;
   height: 200px;
   z-index: 100;
-  border: 1px solid;
+  /* Local video is resized when remote video is resized (eg phone rotate) */
+  transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
 }
 
 /* Remote video is always full size */
@@ -31,22 +26,18 @@ body, html {
   bottom: 0;
 }
 
+/* No video and no audio badges - style these, they're ugly right now */
 .pl-no-video,
 .pl-no-audio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0,0,0,0.9);
-  border-radius: 4px;
-  color: #efefef;
   margin: 16px;
-
   position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100px;
   height: 100px;
+  background: rgba(0,0,0,0.8);
+  color: white;
 }
 .pl-no-video {
   left: auto;
