@@ -40,7 +40,7 @@ videoChatContainer.remove()
 - `.pl-conference`
   * The container element for the video chat. Two video elements are placed in here.
 - `.pl-video`
-  * The remote and local video are inside of a `.pl-video`. The video will always fill to match the size of these elements.
+  * Two `.pl-video` elements exist: one for the remote video, one for the local video. Each video stream will fill to fit the size of their parent `pl-video` element.
 - `.pl-local`
   * The local video. Placed in the bottom left corner of the conference. Changes size to match the aspect ratio of the remote user.
 - `.pl-remote`
