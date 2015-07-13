@@ -1,7 +1,7 @@
 {
   "name": "potluck",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Video chat one on one",
   "license": "MIT",
   "repository": "eaze/potluck",
@@ -10,8 +10,8 @@
   },
   "scripts": {
     "test": "standard && tape test.js",
-    "build": "browserify index.js -o out.js -p [ parcelify -o out.css ]",
-    "dev": "watchify index.js -v -o out.js -p [ parcelify -wo out.css ]"
+    "build": "browserify test.js -o out.js -p [ parcelify -o out.css ]",
+    "dev": "watchify test.js -v -o out.js -p [ parcelify -wo out.css ]"
   },
   "browserify-shim": {
     "opentok": "global:OT",
@@ -25,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "after": "^0.8.1",
     "base-element": "^3.0.1",
     "mercury": "^14.0.0",
     "next-tick": "^0.2.2",
