@@ -16,9 +16,11 @@
   "style": "style.css",
   "dependencies": {
     "after": "^0.8.1",
+    "debug": "^2.2.0",
     "main-loop": "^3.1.0",
     "next-tick": "^0.2.2",
     "observ": "^0.2.0",
+    "observ-array": "^3.2.1",
     "observ-struct": "^6.0.0",
     "potluck-opentok-adapter": "0.0.4",
     "virtual-dom": "^2.0.1",
