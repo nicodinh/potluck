@@ -13,10 +13,10 @@
 /* Local video is in bottom left corner */
 .pl-local {
   position: absolute;
-  bottom: 16px;
-  left: 16px;
-  width: 200px;
-  height: 200px;
+  bottom: 8px;
+  left: 8px;
+  width: 120px;
+  height: 120px;
   z-index: 100;
   /* Local video is resized when remote video is resized (eg phone rotate) */
   transition: 0.2s ease-out;
