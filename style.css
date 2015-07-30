@@ -13,7 +13,7 @@
 /* Local video is in bottom left corner */
 .pl-local {
   position: absolute;
-  bottom: 8px;
+  bottom: 16px;
   left: 8px;
   width: 120px;
   height: 120px;
